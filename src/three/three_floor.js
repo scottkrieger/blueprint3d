@@ -58,7 +58,6 @@ var ThreeFloor = function(scene, room) {
     var floor = new THREE.Mesh(geometry, floorMaterialTop);
 
     floor.rotation.set(Math.PI/2, 0, 0);
-    roof.position.y = 250;
     floor.scale.set(textureScale, textureScale, textureScale);
     floor.receiveShadow = true;
     floor.castShadow = false;
