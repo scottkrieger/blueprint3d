@@ -29,8 +29,8 @@ var Room = function(floorplan, corners) {
   this.customTexture = false;
 
   var defaultTexture = {
-    url: "rooms/textures/hardwood.png",
-    scale: 400
+    url: "rooms/textures/floor_16073_broad-and-hn-limestone_sub.jpeg",
+    scale: 670
   }
 
   var floorChangeCallbacks = JQUERY.Callbacks();
